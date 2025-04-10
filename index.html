@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IyasBite - Fast Food</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body class="dark-mode">
+  <header>
+    <nav class="navbar">
+      <ul class="nav-icons">
+        <li><a href="#"><i class="fas fa-utensils"></i></a></li>
+        <li><a href="#menu"><i class="fas fa-bars"></i></a></li>
+        <li><a href="#order"><i class="fas fa-shopping-cart"></i></a></li>
+        <li><a href="#contact"><i class="fas fa-envelope"></i></a></li>
+        <li><a href="#"><i class="fas fa-home"></i></a></li>
+      </ul>
+    </nav>
+  </header>
+  <button class="toggle-mode-btn" onclick="toggleMode()">🌞 / 🌙</button>
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Fast. Tasty. Legendary.</h1>
+        <h2>The Future of Fast Food</h2>
+        <p>Discover a new level of speed and flavor with SpeedBite's signature bites and bold tastes!</p>
+        <button>Order Now</button>
+      </div>
+      <img class="side-overlay" src="assets/sobek.png" alt="Side Tear" />
+      <div class="hero-img">
+        <img id="mainCharacter" src="assets/burger.png" alt="Mascot" />
+        <div class="character-selector">
+          <img src="assets/burger.png" onclick="changeCharacter(this.src)" />
+          <img src="assets/pizza.png" onclick="changeCharacter(this.src)" />
+          <img src="assets/fries.png" onclick="changeCharacter(this.src)" />
+        </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 IyasBite. All rights reserved.</p>
+  </footer>
+
+  <script src="mod.js"></script>
+</body>
+</html>
