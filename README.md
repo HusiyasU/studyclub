@@ -45,7 +45,7 @@ Membangun halaman web modern dengan tampilan gelap dan navigasi yang interaktif,
 - CSS3
 - Font Awesome (ikon)
 - Responsive Design (tanpa framework)
-- JavaScript (untuk toggle dark/light mode)
+- JavaScript
 
 ---
 
