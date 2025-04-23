@@ -1,9 +1,16 @@
 /* Default Variables */
+@font-face {
+  font-family: 'YinpinHongmengTi';
+  src: url('assets/ZZZ.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', sans-serif;
     transition: background 0.3s, color 0.3s;
+    font-family: 'YinpinHongmengTi', sans-serif;
   }
   
   .dark-mode {
