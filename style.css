@@ -222,6 +222,25 @@ body {
     transform: scale(1.1);
     border-color: orange;
   }
+
+  button,
+.hero-text button,
+.toggle-mode-btn {
+  font-family: 'YinpinHongmengTi', sans-serif;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.hero-text button:hover {
+  background-color: #ff8800;
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(255, 106, 0, 0.4);
+}
+
+.toggle-mode-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(255, 106, 0, 0.5);
+}
   
   /* Footer */
   footer {
