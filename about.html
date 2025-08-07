@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About - IyasBite</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      background-image: url('assets/bg-about.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  </style>
+</head>
+<body class="dark-mode scroll-smooth text-white">
+
+  <!-- Navbar -->
+  <nav class="fixed top-4 right-4 z-50 flex gap-2">
+    <a href="index.html" class="bg-orange-500 text-white px-4 py-2 rounded-full shadow-lg hover:scale-110 transform transition-all font-semibold">Home</a>
+    <a href="#about" class="bg-white bg-opacity-20 text-white px-4 py-2 rounded-full shadow hover:bg-orange-500 hover:scale-110 transition font-semibold">About</a>
+    <a href="#gallery" class="bg-white bg-opacity-20 text-white px-4 py-2 rounded-full shadow hover:bg-orange-500 hover:scale-110 transition font-semibold">Gallery</a>
+    <a href="#testimonials" class="bg-white bg-opacity-20 text-white px-4 py-2 rounded-full shadow hover:bg-orange-500 hover:scale-110 transition font-semibold">Testimonials</a>
+  </nav>
+
+  <!-- MAIN Content -->
+  <main class="pt-24 space-y-32">
+
+    <!-- About Us -->
+    <section id="about" class="max-w-4xl mx-auto p-10 bg-white bg-opacity-10 rounded-xl shadow-2xl backdrop-blur-md animate-fadeInUp">
+      <h2 class="text-3xl font-bold mb-4 text-shadow">Tentang IyasBite</h2>
+      <p class="leading-relaxed text-lg text-shadow">
+        Kami adalah restoran cepat saji dengan misi menyajikan makanan cepat, enak, dan penuh gaya. Dari burger berlapis saus rahasia hingga kentang goreng renyah – kami adalah tempat terbaik untuk pecinta fast food sejati!
+      </p>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="max-w-4xl mx-auto p-10 bg-white bg-opacity-10 rounded-xl shadow-2xl backdrop-blur-md animate-fadeInUp">
+      <h2 class="text-3xl font-bold mb-6 text-shadow">Galeri</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+        <img src="assets/burger.png" alt="Burger" class="rounded-lg transform hover:scale-110 transition duration-300 filter brightness-110 shadow-lg">
+        <img src="assets/pizza.png" alt="Pizza" class="rounded-lg transform hover:rotate-3 hover:scale-105 transition duration-300 filter grayscale shadow-lg">
+        <img src="assets/fries.png" alt="Fries" class="rounded-lg transform hover:skew-x-6 transition duration-300 filter hue-rotate-30 shadow-lg">
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="max-w-4xl mx-auto p-10 bg-white bg-opacity-10 rounded-xl shadow-2xl backdrop-blur-md animate-fadeInUp">
+      <h2 class="text-3xl font-bold mb-6 text-shadow">Testimoni</h2>
+      <div class="space-y-6">
+        <div class="p-4 bg-orange-200 bg-opacity-20 rounded-lg shadow hover:scale-105 transition">
+          <p class="text-shadow">“Burgernya luar biasa! Cepat, panas, dan nikmat.”</p>
+          <p class="italic text-sm mt-2 text-right text-shadow">– Budi, Mahasiswa</p>
+        </div>
+        <div class="p-4 bg-orange-200 bg-opacity-20 rounded-lg shadow hover:scale-105 transition">
+          <p class="text-shadow">“Pelayanan cepat dan rasa makanannya mantap jiwa.”</p>
+          <p class="italic text-sm mt-2 text-right text-shadow">– Sari, Content Creator</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+</body>
+</html>
